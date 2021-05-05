@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="automation-test" />
+        <module name="prueba_serenity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="automation-test" target="1.8" />
+      <module name="prueba_serenity" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
