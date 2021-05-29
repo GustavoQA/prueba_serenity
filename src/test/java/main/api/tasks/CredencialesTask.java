@@ -28,7 +28,7 @@ public class CredencialesTask implements Task {
                 Enter.theValue(contrasena).into(INPUT_INGRESAR_CONTRASENA),// escribir la contraseña
                 Click.on(CLICK_BOTON_ACEPTAR)
                 //             SelectFromOptions.byVisibleText(tipoCategoria).from(SELECT_TIPO_CATEGORIA),//seleccionar item
-                //Hit.the(Keys.ENTER).into(BUTTON_BUSCAR_ARTICULO),
+                //Hit.the(Keys.ENTER).into(BUTTON_BU    SCAR_ARTICULO),
                 //Click.on(LINK_OBJETO_ENCONTRADO)// click seleccionar producto   CLICK_BOTON_ACEPTAR
         );
 

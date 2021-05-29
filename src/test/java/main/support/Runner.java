@@ -12,10 +12,10 @@ import org.junit.runner.RunWith;
 
 @CucumberOptions(
 
-        features = {"src/test/resources/features/Login.feature"},//ruta del features que deseas
+        features = {"src/test/resources/features"},//ruta del features que deseas
         glue = {"main/stepsdefinitions"}, //en donde van a estar las implementaciones de cada uno de los pasos de nuestros escenarios.
         snippets =SnippetType.CAMELCASE,
-        tags = "@casoprueba" // Indicamos que Tags quegamos ejecutar. Pueden ser de Scenarios o de Features.
+        tags = "@casorpp" // Indicamos que Tags quegamos ejecutar. Pueden ser de Scenarios o de Features.
 )
 
 public class Runner {

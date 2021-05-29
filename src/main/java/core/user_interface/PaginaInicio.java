@@ -6,13 +6,13 @@ import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
 
 
-@DefaultUrl("https://bpmodliq.bluepartner.com.pe/Login_ctrl") // indicar la web
+@DefaultUrl("https://rpp.pe/?ref=rpp") // indicar la web
 public class PaginaInicio extends PageObject {
 
 public static final Target INPUT_INGRESAR_EMAIL = Target.the("Input donde se ingresa el correo ").locatedBy("//input[@id='username']");
 public static final Target INPUT_INGRESAR_CONTRASENA = Target.the("Input donde se ingresa la clave").locatedBy("//input[@id='password']");
 public static final Target CLICK_BOTON_ACEPTAR = Target.the("click en el boton aceptar ").locatedBy("//button[@name='login']");
-
+public static final Target BOTON = Target.the("bajar el scroll").locatedBy("//span[@class='nuautor_spatitu']");
 
 
 
